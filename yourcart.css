@@ -1,0 +1,169 @@
+
+/*     Navigation       */
+
+.main-header {
+    padding-top: 170px;
+    height: 500px;
+    background: linear-gradient(#EEEAEE, transparent 50%),
+      linear-gradient(28deg, #E7C8DE, transparent),
+      url('Images/RollingTray1.jpg') no-repeat center;
+    background-size: cover;
+    color: white; 
+    font-family:fantasy;
+  }
+  .main-nav {
+    width: 100%;
+    background: #ffa949, transparent 90%;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+  /*  display:flex;*/
+    justify-content:space-between;
+    font-weight: 700;
+    list-style-type: none;
+    margin:  auto;
+    padding: 0;
+    padding: 0;
+    text-align: left;
+  }
+    
+  .nav a:hover {
+    color: #06E4FC;
+  }
+  
+  li {
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    text-shadow: 1px 0px 8px black;
+    margin-left:-2px;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size: x-large;
+  }
+  .nav-links {
+    color: rgb(12, 12, 12);
+    font-family:fantasy;
+    text-shadow: 1px 0px 8px black;
+    text-decoration: none;
+  }
+
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+}
+h2{
+    text-align: center;
+    font-style: fantasy;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    border-color: red;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+
+.col-25,.col-50,.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 3px 18px 13px 18px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
+}
+
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(130, 26, 26);
+    border-radius: 1px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #01BAEF;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+
+}
+
+.btn:hover {
+    background-color: #0CBABA;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns 
+    stack on top of each other instead of next to each other (also change the direction 
+    - make the "cart" column go on top) 
+*/
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}

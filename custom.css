@@ -1,0 +1,196 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background: url('Images/RollingTray1.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: -130px;
+/*  width: 150px;*/
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+body {
+  /* background-color: rgb(245, 230, 216); */
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 100px;
+ 
+}
+p {
+  font-size: 25px;
+  font-family:fantasy;
+}
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  text-shadow: 3px 1px 1px rgba(0, 0, 0, .8);
+  margin: 20px 0 0;
+  color: honeydew;
+  font-family:cursive;
+}
+h2 {
+  color: #EEEAEE;
+  text-align:center;
+  font-size: 2rem;
+  font-family: fantasy;
+  text-shadow: 3px 1px 1px rgba(0, 0, 0, .8);
+}
+h3 {
+  margin: 20px 0 34px;
+  text-align:center;
+  color:#00E4FC;
+  font-size:32px;
+  text-decoration:underline;
+}
+footer {
+  text-align:center;
+  margin-top:25px;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+/*     Navigation       */
+
+.main-header {
+  padding-top: 170px;
+  height: 500px;
+  background: linear-gradient(#EEEAEE, transparent 50%),
+    linear-gradient(28deg, #E7C8DE, transparent),
+    url('Images/RollingTray1.jpg') no-repeat center;
+  background-size: cover;
+  color: white; 
+  font-family:fantasy;
+}
+.main-nav {
+  background: #ffa949, transparent 90%;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+/*  display:flex;*/
+  justify-content:space-between;
+  font-weight: 700;
+  list-style-type: none;
+  margin:  auto;
+  padding: 0;
+  padding: 0;
+  text-align: left;
+}
+  
+.nav a:hover {
+  color: #06E4FC;
+}
+
+li {
+  color: honeydew;
+  font-family:fantasy;
+  font-size: x-large;
+  text-shadow: 1px 0px 8px black;
+  margin-left:-2px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+a {
+  color: aliceblue;
+  font-family:fantasy;
+  text-shadow: 1px 0px 8px black;
+  text-decoration: none;
+}
+
+/*    End of Navigation   */
+
+
+/*    Layout Containers   */
+
+.title {
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-top: 2px solid;
+  padding-bottom: 10px;
+  font-style:oblique;
+}  
+
+.primary-info {
+  align-content:center;
+  text-align:center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+  border-top: 2px solid;
+  font-size: fantasy;
+}
+
+
+
+
+
+
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: unset;
+  font-size: large;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 20px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
