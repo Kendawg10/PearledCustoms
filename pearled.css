@@ -125,11 +125,11 @@ img {
   
 .nav a:hover {
   /* color: #06E4FC; */
-  color: black;
+  color: white;
 }
 
 li {
-  color: #3e2a35;
+  color: white;
   font-family:fantasy;
   font-size: x-large;
   font-weight: bold;
